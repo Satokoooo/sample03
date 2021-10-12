@@ -1,3 +1,7 @@
+img {
+  width: 100%;
+}
+
 #hero {
   width: 100%;
   display: block;
@@ -106,6 +110,11 @@ main {
   visibility: hidden;
   transition: 1s;
   transform: translateY(50px);
+  width: 40%;
+}
+
+.mainPhoto {
+  width: 40%;
 }
 
 .mainItem img {
@@ -120,6 +129,10 @@ main {
   visibility: visible;
   opacity: 1;
   transform: none;
+}
+
+.mainItem.show p {
+  width: 40%;
 }
 
 .work_july {
@@ -154,4 +167,17 @@ main {
   font-family: "游明朝 Medium", "Yu Mincho Medium", "Yu Mincho", serif;
   text-align: center;
   padding-top: 20px;
+}
+
+@media (min-width:780px){
+.mainItem {
+  display: flex;
+  margin-bottom: 100px;
+  }
+}
+
+@media (max-width:780px){
+  .mainItem {
+  margin-bottom: 100px;
+  } 
 }
