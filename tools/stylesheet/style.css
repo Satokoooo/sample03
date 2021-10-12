@@ -158,11 +158,6 @@ main {
   justify-content: space-between;
   }
   
-.mainItem {
-  display: flex;
-  margin-bottom: 100px;
-  }
-  
  header span {
   font-size: 18px;
   }
@@ -190,10 +185,6 @@ main {
   header h1{
   margin-bottom: 20px;
   }
-  
-  .mainItem {
-  margin-bottom: 100px;
-  } 
   
   header span {
   font-size: 11px;
