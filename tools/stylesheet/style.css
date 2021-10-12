@@ -75,6 +75,7 @@ main {
   line-height: 1.6;
   font-weight: 700;
   margin-bottom: 100px;
+  margin-left: 50px;
   border-bottom: 2px solid #707070;
   animation: titleAnimation 2s;
 }
@@ -91,8 +92,8 @@ main {
 }
 
 .mainItem {
-  display: flex;
   margin-bottom: 100px;
+  width: 85%;
 }
 
 .main_text {
@@ -105,11 +106,6 @@ main {
   visibility: hidden;
   transition: 1s;
   transform: translateY(50px);
-  width: 40%;
-}
-
-.mainPhoto {
-  width: 40%;
 }
 
 .mainItem img {
@@ -124,10 +120,6 @@ main {
   visibility: visible;
   opacity: 1;
   transform: none;
-}
-
-.mainItem.show p {
-  width: 40%;
 }
 
 .work_july {
@@ -172,10 +164,21 @@ main {
   
  header span {
   font-size: 18px;
-}
+  }
  header h1 {
    font-size: 32px;
-}
+  }
+  
+ .mainItem {
+  display: flex;
+  justify-content: space-between;
+  }
+   
+.mainPhoto,
+.main_text,
+.mainItem.show p{
+  width: 45%;
+  }
 }
 
 @media (max-width:780px){
@@ -185,8 +188,14 @@ main {
   
   header span {
   font-size: 11px;
-}
+  }
    header h1 {
    font-size: 24px;
-}
+  }
+
+.mainPhoto,
+.main_text,
+.mainItem.show p{
+  width: 80%;
+  }
 }
