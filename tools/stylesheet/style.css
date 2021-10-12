@@ -15,12 +15,6 @@ header {
   z-index: 10;
 }
 
-.header_contents {
-  padding: 30px 80px;
-  display: flex;
-  justify-content: space-between;
-}
-
 header h1 {
   color: #fffaf0;
   font-family: "游明朝 Medium", "Yu Mincho Medium", "Yu Mincho", serif;
@@ -92,7 +86,8 @@ main {
 }
 
 .mainItem {
-  margin-bottom: 100px;
+  margin: 0 auto;
+  padding-bottom: 100px;
   width: 85%;
 }
 
@@ -157,6 +152,12 @@ main {
 }
 
 @media (min-width:780px){
+.header_contents {
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  }
+  
 .mainItem {
   display: flex;
   margin-bottom: 100px;
@@ -182,6 +183,14 @@ main {
 }
 
 @media (max-width:780px){
+  .header_contents {
+  padding: 10px 30px;
+  }
+  
+  header h1{
+  margin-bottom: 20px;
+  }
+  
   .mainItem {
   margin-bottom: 100px;
   } 
