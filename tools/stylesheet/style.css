@@ -23,12 +23,7 @@ header {
 
 header h1 {
   color: #fffaf0;
-  font-size: 32px;
   font-family: "游明朝 Medium", "Yu Mincho Medium", "Yu Mincho", serif;
-}
-
-header span {
-  font-size: 18px;
 }
 
 .header-nav {
@@ -174,10 +169,24 @@ main {
   display: flex;
   margin-bottom: 100px;
   }
+  
+ header span {
+  font-size: 18px;
+}
+ header h1 {
+   font-size: 32px;
+}
 }
 
 @media (max-width:780px){
   .mainItem {
   margin-bottom: 100px;
   } 
+  
+  header span {
+  font-size: 11px;
+}
+   header h1 {
+   font-size: 24px;
+}
 }
