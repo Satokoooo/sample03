@@ -68,7 +68,6 @@ main {
   font-family: "游明朝 Medium", "Yu Mincho Medium", "Yu Mincho", serif;
   line-height: 1.6;
   font-weight: 700;
-  margin-bottom: 100px;
   margin-left: 50px;
   border-bottom: 2px solid #707070;
   animation: titleAnimation 2s;
@@ -89,7 +88,6 @@ main {
 }
 
 .mainItem {
-  padding-bottom: 100px;
   width: 85%;
 }
 
@@ -163,13 +161,19 @@ main {
  header span {
   font-size: 18px;
   }
+  
  header h1 {
    font-size: 32px;
+  }
+  
+ .main_title {
+   margin-bottom: 100px;
   }
   
  .mainItem {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
   }
    
 .mainPhoto,
@@ -191,8 +195,21 @@ main {
   header span {
   font-size: 11px;
   }
+  
    header h1 {
    font-size: 24px;
+  }
+  
+  .main_title {
+   margin-bottom: 50px;
+  }
+  
+  .mainItem {
+   padding-bottom: 50px; 
+  }
+  
+  .mainPhoto {
+   margin-bottom: 30px;
   }
 
 .mainPhoto,
